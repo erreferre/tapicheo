@@ -9,15 +9,15 @@
     window.APP = {
       models: {
         home: {
-          title: 'Home'
+          title: 'Inicio'
         },
         settings: {
-          title: 'Settings'
+          title: 'Bares'
         },
         contacts: {
-          title: 'Contacts',
+          title: 'Rutas',
           ds: new kendo.data.DataSource({
-            data: [{ id: 1, name: 'Bob' }, { id: 2, name: 'Mary' }, { id: 3, name: 'John' }]
+            data: [{ id: 1, name: 'Azul' }, { id: 2, name: 'Verde' }, { id: 3, name: 'Amarela' }, { id: 3, name: 'Vermella' }, { id: 3, name: 'Laranxa' }]
           }),
           alert: function(e) {
             alert(e.data.name);
