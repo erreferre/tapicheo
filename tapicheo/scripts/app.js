@@ -19,7 +19,10 @@
           ds: new kendo.data.DataSource({
             data: [{ id: 1, name: 'Azul' }, { id: 2, name: 'Verde' }, { id: 3, name: 'Amarela' }, { id: 3, name: 'Vermella' }, { id: 3, name: 'Laranxa' }]
           }),
-          alert: function(e) {
+//            ds: kendo.data.HierarchicalDataSource({
+//                data: [{id: 1, name: 'Azul', items: [{bar: '8mm'},{bar: 'paris'}]},{id:2,name:'Verde',items:[{bar:'patulas',{bar:'modia'}}]}]  
+//            }),
+            alert: function(e) {
             alert(e.data.name);
           }
         }
