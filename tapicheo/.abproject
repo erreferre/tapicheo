@@ -6,8 +6,8 @@
   "DisplayName": "tapicheo",
   "Author": "moncho rego",
   "Description": "tapicheo",
-  "BundleVersion": "4.0",
-  "AndroidVersionCode": "4",
+  "BundleVersion": "5.0",
+  "AndroidVersionCode": "5",
   "iOSDeviceFamily": [
     "1",
     "2"
