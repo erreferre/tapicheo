@@ -17,7 +17,7 @@
         contacts: {
           title: 'Rutas',
           ds: new kendo.data.DataSource({
-              data: [{ id: 1, name: 'Azul', textareaValue: 'Valle Aguiada,O Descanso,DP Cristal,Tapería O Antoxo,Parisien,Albergue Credencial,Hotel Alfonso IX' }, { id: 2, name: 'Verde', textareaValue: 'Rosyl,DOrixen,La Polar,O Que Faltaba,Don Pepe,Central, Montecarlo' }, { id: 3, name: 'Amarela', textareaValue: 'Siete2,8mm,O Faro,DPont,Vilas,Flavia' }, { id: 3, name: 'Vermella', textareaValue: 'Mesón Terras de Sarria,Atlántico,Travesía dos Soños,Anduriñas,Pulpería Pontenova,O Tapas,Matías Locanda' }, { id: 3, name: 'Laranxa', textareaValue: 'O Chanto,Meigallo,Mesón Roberto,Santiago,Next,Taberna da Pili,Salento' }]
+              data: [{ id: 1, name: 'Azul', textareaValue: 'Valle Aguiada, O Descanso, DP Cristal, Tapería O Antoxo, Parisien, Albergue Credencial, Hotel Alfonso IX' }, { id: 2, name: 'Verde', textareaValue: 'Rosyl, DOrixen, La Polar, O Que Faltaba, Don Pepe, Central, Montecarlo' }, { id: 3, name: 'Amarela', textareaValue: 'Siete2, 8mm, O Faro, DPont, Vilas, Flavia' }, { id: 3, name: 'Vermella', textareaValue: 'Mesón Terras de Sarria, Atlántico, Travesía dos Soños, Anduriñas, Pulpería Pontenova, O Tapas, Matías Locanda' }, { id: 3, name: 'Laranxa', textareaValue: 'O Chanto, Meigallo, Mesón Roberto, Santiago, Next, Taberna da Pili, Salento' }]
           }),
 //            ds: kendo.data.HierarchicalDataSource({
 //                data: [{id: 1, name: 'Azul', items: [{bar: '8mm'},{bar: 'paris'}]},{id:2,name:'Verde',items:[{bar:'patulas',{bar:'modia'}}]}]  
